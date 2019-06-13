@@ -34,7 +34,11 @@ namespace ChildrenSportSchool
         /// <summary>
         /// Учителя
         /// </summary>
-        public List<Teacher> Teacher { get; set; }
+        public List<Teacher> Registr { get; set; }
+        /// <summary>
+        /// Ученики
+        /// </summary>
+        public List<Students> Journal { get; set; }
     }
 
     /// <summary>
